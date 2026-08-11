@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>UPC Leaderboard</title>
+    <!-- Using Poppins for modern look -->
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="styles.css">
+</head>
+
+<body>
+
+    <nav class="navbar">
+        <a href="index.html" class="nav-btn">Home</a>
+        <a href="activity-DermMap.html" class="nav-btn">Derma Map Dashboard</a>
+        <a href="activity-PerfectMatch.html" class="nav-btn">Perfect Match Dashboard</a>
+        <button id="refresh-btn" class="nav-btn refresh-btn">🔄 Refresh</button>
+    </nav>
+
+    <div class="container">
+        <div class="leaderboard-card">
+            <h1 class="leaderboard-title">Selling Opportunities in<br>Whitening & Anti-Aging</h1>
+
+            <div id="loader" class="loader"></div>
+
+            <div id="podium-container" class="podium-container">
+                <!-- Dynamically populated by JS -->
+            </div>
+        </div>
+    </div>
+
+    <script src="app.js"></script>
+</body>
+
+</html>

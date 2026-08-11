@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Perfect Match Dashboard</title>
+    <!-- Using Poppins for modern look -->
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="styles.css">
+</head>
+
+<body>
+
+    <nav class="navbar">
+        <a href="index.html" class="nav-btn">Home</a>
+        <a href="activity-DermMap.html" class="nav-btn">Derma Map Dashboard</a>
+        <a href="activity-PerfectMatch.html" class="nav-btn">Perfect Match Dashboard</a>
+        <button id="refresh-btn" class="nav-btn refresh-btn">🔄 Refresh</button>
+    </nav>
+
+    <div class="container wrapper-rel">
+        <div class="dash-header">
+            Perfect Match Dashboard
+        </div>
+
+        <!-- Filters Section -->
+        <div class="filters-section hidden" id="pm-filters"
+            style="display: flex; justify-content: center; margin-bottom: 25px; width: 100%;">
+            <div class="filter-group">
+                <label for="pm-team-filter">Team:</label>
+                <select id="pm-team-filter" class="glass-select">
+                    <option value="all">All Teams</option>
+                </select>
+            </div>
+        </div>
+
+        <div id="loader" class="loader"></div>
+
+        <!-- Team Summary & QR Code Grid -->
+        <div class="dashboard-grid hidden" id="pm-dashboard-grid">
+            <!-- Left: Team Summary -->
+            <div class="dash-panel podium-small">
+                <h3 style="margin-bottom: 20px;">Team Summary</h3>
+                <div id="pm-scores-body">
+                    <!-- Populated by JS -->
+                </div>
+            </div>
+
+            <!-- Right: QR Code -->
+            <div class="dash-panel" style="display: flex; align-items: center; justify-content: center;">
+                <div style="background: white; padding: 15px; border-radius: 12px; display: inline-flex;">
+                    <img src="activity3-img/activity3-QR.png" alt="Activity QR"
+                        style="max-width: 100%; max-height: 200px;">
+                </div>
+            </div>
+        </div>
+
+        <!-- Incorrect Placements Section -->
+        <div class="dashboard-grid hidden" id="pm-errors-grid" style="grid-template-columns: 1fr;">
+            <div class="dash-panel">
+                <h3 style="margin-bottom: 20px;">Incorrect Placements Details</h3>
+                <div class="table-container" style="display: block;">
+                    <table class="data-table">
+                        <thead>
+                            <tr>
+                                <th>Team Number</th>
+                                <th>Case ID</th>
+                                <th>Product Name</th>
+                                <th>Placed Zone (Wrong)</th>
+                                <th>Correct Zone</th>
+                            </tr>
+                        </thead>
+                        <tbody id="pm-errors-body">
+                            <!-- Populated by JS -->
+                        </tbody>
+                    </table>
+                </div>
+            </div>
+        </div>
+
+    </div>
+
+    <!-- Product Image Modal -->
+    <div id="product-modal" class="modal hidden">
+        <div class="modal-content glass-card">
+            <span class="modal-close" onclick="closeProductModal()">&times;</span>
+            <h3 id="modal-product-name" style="margin-bottom: 15px; color: var(--light-blue);">Product Details</h3>
+            <img id="modal-product-img" src="" alt="Product Image"
+                style="max-width: 100%; max-height: 50vh; border-radius: 8px;">
+        </div>
+    </div>
+
+    <script src="app.js"></script>
+</body>
+
+</html>

@@ -1,0 +1,41 @@
+CaseID,ProductName,Accessibility Name,CorrectZone
+SkinOxidation,Acm Depiwhite Advanced Cream 40 Ml,Product_4,yellow 
+SkinOxidation,Anua Azelaic Acid 10+ Hyaluron Serum 30 ml,Product_7,red
+SkinOxidation,Babe Depigment+ Control Fluid,Product_10,red
+SkinOxidation,Esthederm Intensive Retinol Creme 50Ml,Product_2,red
+SkinOxidation,Svr Ampoule-C Anti-Ox 30Ml,Product_1,green
+SkinOxidation,Vichy Liftactiv Vitamin C Skin Corb 20Ml,Product_5,green
+SkinOxidation,La Roche Posay Retinol B3 Pure Retinol,Product_8,red
+SkinOxidation,La Roche Posay Mela B3 Serum,Product_3,red
+SkinOxidation,Bioderma Pigmentbio Night Renewer Cr.50M,Product_6,yellow
+SkinOxidation,Eveline Peel Shot 15% Glycolic,Product_9,red
+PIH,Acm Depiwhite Advanced Cream 40 Ml,Product_4,yellow
+PIH,Anua Azelaic Acid 10+ Hyaluron Serum 30 ml,Product_7,green
+PIH,Babe Depigment+ Control Fluid,Product_10,green
+PIH,Esthederm Intensive Retinol Creme 50Ml,Product_2,red
+PIH,Svr Ampoule-C Anti-Ox 30Ml,Product_1,red
+PIH,Vichy Liftactiv Vitamin C Skin Corb 20Ml,Product_5,red
+PIH,La Roche Posay Retinol B3 Pure Retinol,Product_8,red
+PIH,La Roche Posay Mela B3 Serum,Product_3,yellow
+PIH,Bioderma Pigmentbio Night Renewer Cr.50M,Product_6,yellow
+PIH,Eveline Peel Shot 15% Glycolic,Product_9,red
+DeepWrinkles,Acm Depiwhite Advanced Cream 40 Ml,Product_4,red
+DeepWrinkles,Anua Azelaic Acid 10+ Hyaluron Serum 30 ml,Product_7,red
+DeepWrinkles,Babe Depigment+ Control Fluid,Product_10,red
+DeepWrinkles,Esthederm Intensive Retinol Creme 50Ml,Product_2,green
+DeepWrinkles,Svr Ampoule-C Anti-Ox 30Ml,Product_1,yellow
+DeepWrinkles,Vichy Liftactiv Vitamin C Skin Corb 20Ml,Product_5,yellow
+DeepWrinkles,La Roche Posay Retinol B3 Pure Retinol,Product_8,green
+DeepWrinkles,La Roche Posay Mela B3 Serum,Product_3,red
+DeepWrinkles,Bioderma Pigmentbio Night Renewer Cr.50M,Product_6,red
+DeepWrinkles,Eveline Peel Shot 15% Glycolic,Product_9,yellow
+Melasma,Acm Depiwhite Advanced Cream 40 Ml,Product_4,yellow
+Melasma,Anua Azelaic Acid 10+ Hyaluron Serum 30 ml,Product_7,green
+Melasma,Babe Depigment+ Control Fluid,Product_10,green
+Melasma,Esthederm Intensive Retinol Creme 50Ml,Product_2,red
+Melasma,Svr Ampoule-C Anti-Ox 30Ml,Product_1,yellow
+Melasma,Vichy Liftactiv Vitamin C Skin Corb 20Ml,Product_5,yellow
+Melasma,La Roche Posay Retinol B3 Pure Retinol,Product_8,red
+Melasma,La Roche Posay Mela B3 Serum,Product_3,green
+Melasma,Bioderma Pigmentbio Night Renewer Cr.50M,Product_6,green
+Melasma,Eveline Peel Shot 15% Glycolic,Product_9,green
